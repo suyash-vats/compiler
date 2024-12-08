@@ -1,0 +1,20 @@
+{
+  "name": "python-compiler-backend",
+  "version": "1.0.0",
+  "description": "Backend for Python compiler using Vercel serverless functions",
+  "dependencies": {
+    "child_process": "latest",
+    "fs": "latest",
+    "path": "latest"
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.1.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

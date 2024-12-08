@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+requests
+flask
+scikit-learn
+tensorflow
+# Add any other libraries you need

@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+h1 {
+  text-align: center;
+}
+
+#editor {
+  height: 500px;
+  border: 1px solid #44475a;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #6272a4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #44475a;
+}
+
+#output-container {
+  margin-top: 20px;
+}
+
+#output {
+  white-space: pre-wrap;
+  background-color: #44475a;
+  color: #f8f8f2;
+  padding: 10px;
+  border-radius: 5px;
+}

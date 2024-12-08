@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "frontend/index.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "api/execute.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/execute",
+        "dest": "/api/execute.js"
+      }
+    ]
+  }
+  
